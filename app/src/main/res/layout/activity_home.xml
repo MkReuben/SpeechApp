@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=" Select language you want your text to spoken to:"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:id="@+id/btn_english"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/tv_one"
+        android:textSize="18sp"
+        android:text="ENGLISH"
+        android:textColor="#FFF"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_japanese"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btn_english"
+        android:textSize="18sp"
+        android:text="JAPANESE"
+        android:textColor="#FFF"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_chinese"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btn_japanese"
+        android:textSize="18sp"
+        android:text="CHINESE"
+        android:textColor="#FFF"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_korean"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btn_chinese"
+        android:textSize="18sp"
+        android:text="KOREAN"
+        android:textColor="#FFF"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_german"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btn_korean"
+        android:textSize="18sp"
+        android:text="GERMAN"
+        android:textColor="#FFF"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_italian"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btn_german"
+        android:textSize="18sp"
+        android:text="ITALIAN"
+        android:textColor="#FFF"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
